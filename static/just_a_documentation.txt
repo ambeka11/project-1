@@ -1,0 +1,40 @@
+//the skeleton part:
+function rpsGame function is called when user click one of the image. then the clicked element is passed to the func as (yourChoice).
+declares two variables to store user choice(humanChoice) and the computer choice (botChoice)
+human choice means yourChoice as passed in the parameter
+bot choice means yet to be found!!!
+then we gonna get the results between humanChoice and botChoice
+and we gonna pass message ie. message = finalMessage(results) , message is passed according to what the result is received
+then the frontEnd part to show all the above things that has occurred in the code that is shown in frontEnd part with param (yourChoice.id, botChoice, message)
+
+//second part
+comp needs to create random number between 0-2 numbers(for three option rps) for that purpose new func is created function randomToRpsInt() that returns Math.floor(Math.random()n* 3)
+
+//third part 
+function numberToChoice with number parameter is created that returns and array with key rock scissor and paper with another array [number]
+
+//fourth part
+function decideWinner(yourChoice, computerChoice) is created that created a object called rpsDatabase and has three properties rock paper and scissor with their own object which contains when they will win tie or loose and the obj is closed.  In the decideWinner func yourScore gonna have two array from rpsDatabase and so does computerScore and at the return part yourScore,computerScore gonna be passed in a single array
+
+//fifth part
+function finalMessage pass a param with a single array that contains [yourScore, computerScore] that has if else if and else iteration going on where different condition like when yourScore === 0 what it gonna return and so on is returned with object where message and color is passed with , .
+
+//sixth part
+function called rpsFrontend with parameter (humanImageChoice, botImageChoice, finalMessage) { is passed with var imageDatabase obj which has three properties 'rock' 'scissor' 'paper': which gonna get id of each element and it's src. and the obj is closed }
+then,
+we gonna get all the id's of elem and remove()
+and,
+to display the finalMessage in another div when user clicks the image it should show the result that's why: 
+gonna create three div's humanDiv botDiv and messageDiv and gonna create using document.createElement('div')
+then then,
+
+images tracking: 
+humanDiv.innerHTMl = img src = + imageDatabase[humanDiv] + height width style=box-shadow
+messageDiv.innerHTMl = <h1 with style color + finalMessage(color) + font-size padding > + finalMessage(message) </h1>
+same as humanDiv for botDiv
+
+then ,
+we gonna get the main div which is in the html that is flex-box-rps-div we gonna append humanDiv messageDiv and botDiv
+
+
+

@@ -1,0 +1,59 @@
+.container-1, .container-2, .container-3, .container-4, .container-5{
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.flexbox-container-1, .flexbox-container-2, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+  border: 1px solid black;
+  /* margin: 10px;  uncomment to see the difference*/
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+  background: url('https://www.photos-public-domain.com/wp-content/uploads/2012/06/forest-green-speckled-paper-texture.jpg');
+  color: #fff;
+
+}
+.flex-blackjack-row-1 div{
+  border: 1px solid black;
+  padding: 10px;
+  flex: 1;
+  height: 350px;
+  text-align: center;
+}
+.flex-blackjack-row-1 img{
+  width: 25%;
+  padding: 10px;
+}
+.flex-blackjack-row-2 button{
+  border: 1px solid black;
+  padding: 10px;
+}
+.flex-blackjack-row-2 div{
+  border: 1px solid black;
+  padding: 10px;
+}
+table, th, td {
+  padding: 5px;
+  border: 1px solid black;
+
+}
+.flexbox-container-1 div{
+  display: flex;
+  /* margin: 10px; */
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+.flexbox-container-2 img{
+  margin: 10px;
+ 
+}
+.flex-box-rps img:hover{
+  box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
